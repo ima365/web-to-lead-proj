@@ -1,4 +1,4 @@
-let captchaChecked = false;
+let captchaChecked = false; 
 
 function beforesubmit(event) {
     if(captchaChecked) {
@@ -12,7 +12,7 @@ function beforesubmit(event) {
         // set the formatted date into the second variable
         outputdate.value = formattedDate;
     } else {
-        alert('Please check the reCaptcha box to submit the form');
+        alert("Please check the reCaptcha box to submit the form");
         event.preventDefault();
     }
 }
