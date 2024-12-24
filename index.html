@@ -12,7 +12,7 @@
 
     <h1>Create Lead</h1>
 
-    <form action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8&orgId=00Daj00000AoByb" method="POST" onsubmit="beforesubmit()">
+    <form action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8&orgId=00Daj00000AoByb" method="POST" onsubmit="beforesubmit(event)">
     
     <input type=hidden name="oid" value="00Daj00000AoByb">
     <input type=hidden name="retURL" value="https://ima365.github.io/web-to-lead-proj/thanks.html">
@@ -38,7 +38,7 @@
     
     <label for="date">Lead Date</label><input  type="date" required class="inputdate" /><br>
 
-    <div class="g-recaptcha" data-sitekey="6Leu5qQqAAAAAFvQGCckdA9CLnZBp7jE9vhyA7cu"></div>
+    <div class="g-recaptcha" data-callback="reCaptchaSuccess" data-sitekey="6Leu5qQqAAAAAFvQGCckdA9CLnZBp7jE9vhyA7cu"></div>
 
     <input type="submit" name="submit" class="submit"><br>
     
