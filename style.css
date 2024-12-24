@@ -34,3 +34,9 @@ form {
     border: 2px solid black;
     padding: 15px;
 }
+
+.g-recaptcha {
+    justify-content: center;
+    display: flex;
+
+}
