@@ -31,5 +31,5 @@ function timestamp() {
 setInterval(timestamp, 500); 
 
 function reCaptchaSuccess() {
-    captchaChecked = !captchaChecked;
+    captchaChecked = true;
 }
